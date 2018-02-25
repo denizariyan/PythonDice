@@ -1,5 +1,4 @@
 import random
-try:
     dice = random.randint(1, 6)
     endFlag = 1
     while endFlag:
@@ -14,5 +13,3 @@ try:
                             print("Thats a bit too low. Try again")
                     pass
         pass
-except Exception as e:
-    print(e)
